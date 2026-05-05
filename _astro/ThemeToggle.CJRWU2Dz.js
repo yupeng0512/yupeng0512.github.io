@@ -1,0 +1,9 @@
+import{r as d}from"./index.DiEladB3.js";var c={exports:{}},o={};/**
+ * @license React
+ * react-jsx-runtime.production.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var m;function x(){if(m)return o;m=1;var n=Symbol.for("react.transitional.element"),a=Symbol.for("react.fragment");function i(t,e,r){var l=null;if(r!==void 0&&(l=""+r),e.key!==void 0&&(l=""+e.key),"key"in e){r={};for(var u in e)u!=="key"&&(r[u]=e[u])}else r=e;return e=r.ref,{$$typeof:n,type:t,key:l,ref:e!==void 0?e:null,props:r}}return o.Fragment=a,o.jsx=i,o.jsxs=i,o}var k;function h(){return k||(k=1,c.exports=x()),c.exports}var s=h();function f(){const[n,a]=d.useState(!1);d.useEffect(()=>{const t=localStorage.getItem("theme"),e=window.matchMedia("(prefers-color-scheme: dark)").matches,r=t==="dark"||!t&&e;a(r),document.documentElement.classList.toggle("dark",r)},[]);function i(){const t=!n;a(t),document.documentElement.classList.toggle("dark",t),localStorage.setItem("theme",t?"dark":"light")}return s.jsx("button",{onClick:i,className:"p-2 rounded-lg hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors","aria-label":"Toggle theme",children:n?s.jsx("svg",{className:"w-5 h-5",fill:"none",viewBox:"0 0 24 24",stroke:"currentColor",children:s.jsx("path",{strokeLinecap:"round",strokeLinejoin:"round",strokeWidth:2,d:"M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"})}):s.jsx("svg",{className:"w-5 h-5",fill:"none",viewBox:"0 0 24 24",stroke:"currentColor",children:s.jsx("path",{strokeLinecap:"round",strokeLinejoin:"round",strokeWidth:2,d:"M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"})})})}export{f as default};

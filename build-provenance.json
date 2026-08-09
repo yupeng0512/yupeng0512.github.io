@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "portfolio_source": {
+    "repository": "https://github.com/yupeng0512/personal-card",
+    "source_commit": "10c0ea912ec964cc50af26706571ed2ece88edd8",
+    "verified_runtime": {
+      "node": "20.19.4",
+      "npm": "10.8.2"
+    },
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "./node_modules/.bin/astro build",
+    "frozen_input": "src/data/workspace-data.json",
+    "expected_output_files": 124,
+    "comparison": {
+      "exact_bytes": "all non-HTML files",
+      "html_normalization": "only the non-semantic astro-island uid attribute",
+      "deployed_extra_files_allowed": true
+    },
+    "default_build_warning": "At the pinned historical commit, npm run build rescans the surrounding workspace and is not a cold-recovery command. Use the already-installed local Astro binary directly."
+  },
+  "source_to_deployment_commits": [
+    {
+      "source": "b9d651c79c857a1d86ca2c107198d95745af0804",
+      "deployment": "4e15345abf7a95f1d2d6ee6c85d8987fdc35cd0c"
+    },
+    {
+      "source": "21888fb78b0b7e5b040526fdf8e4710f1f31737e",
+      "deployment": "ee029f8853f7fda9b0a832cbead55d854180e459"
+    },
+    {
+      "source": "57607d15c95ed78df839eed0cf757520f6e057be",
+      "deployment": "a317ead10f2dca33615a77dd6ca0705b4af0eb98"
+    },
+    {
+      "source": "f11618126f1a9e70d6323ec8e0e94ade9bb8c55f",
+      "deployment": "c49be802c46851e91389011015cb0bb1dbda3389"
+    },
+    {
+      "source": "10c0ea912ec964cc50af26706571ed2ece88edd8",
+      "deployment": "6b47dd27212f3346ea0a4ebc91ad7f429daf6a9d"
+    }
+  ],
+  "legacy_hexo_archive": {
+    "source_status": "not-located",
+    "recovery_mode": "deployment-artifacts-only",
+    "generator_evidence": "Hexo 6.3.0 with the Aurora theme"
+  }
+}
